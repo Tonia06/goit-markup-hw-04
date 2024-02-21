@@ -131,6 +131,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-link:hover {
   color: #404bbf;
@@ -146,13 +147,15 @@ section {
 /* #region Hero*/
 
 .first-section {
-  min-width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   padding: 188px 0;
   margin: 0 auto;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-repeat: no-repeat;
   background-color: #2e2f42;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -193,7 +196,7 @@ section {
   height: 56px;
   background-color: #4d5ae5;
   color: #ffffff;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-button:hover {
   background-color: #404bbf;
@@ -208,6 +211,7 @@ section {
 /* #region Features*/
 .container .features-container {
   display: flex;
+  padding: 32px 0;
 }
 .features-section {
   padding: 120px 0;
@@ -284,6 +288,7 @@ section {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-sub-tittle {
   font-weight: 500;
@@ -431,7 +436,7 @@ section {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.container .footer-container {
+.footer-container {
   display: flex;
   align-items: baseline;
 }
